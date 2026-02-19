@@ -154,31 +154,31 @@ Browser will open automatically.
 🧪 Example Input
 Missed sprint deadline because requirements were unclear and I kept switching between tasks.
 
-Example Output
+# Example Output
 
-Failure Detected: True
+- Failure Detected: True
 
-Category: planning_error
+- Category: planning_error
 
-Severity: medium
+- Severity: medium
 
-Root Causes:
+- Root Causes:
 
-Requirement ambiguity
+    - Requirement ambiguity
 
-Multitasking
+    - Multitasking
 
-Pattern Summary: Repeated scope clarity issues
+- Pattern Summary: Repeated scope clarity issues
 
-Prevention Strategies:
+- Prevention Strategies:
 
-Create requirement checklist
+    - Create requirement checklist
 
-Limit concurrent tasks
+    - Limit concurrent tasks
 
-Conduct sprint kickoff clarification meeting
+    - Conduct sprint kickoff clarification meeting
 
-🧠 Agent Capabilities
+## 🧠 Agent Capabilities
 
 LLM-based failure classification
 
@@ -192,7 +192,7 @@ Multi-step reasoning workflow
 
 Streamlit interactive UI
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 Add evaluation metrics
 
@@ -210,7 +210,7 @@ Dockerize application
 
 Replace FAISS with production vector DB (Pinecone/Milvus)
 
-🧩 Why This Project Matters
+## 🧩 Why This Project Matters
 
 This is not a single LLM call.
 It demonstrates:
@@ -225,36 +225,9 @@ Hybrid storage (structured + semantic)
 
 Production-style AI system design
 
-📜 License
 
-MIT License
-
-👤 Author
-
-Your Name
-LinkedIn / Portfolio (optional)
-
-⭐ If You Found This Useful
+## ⭐ If You Found This Useful
 
 Star the repository and feel free to contribute!
 
-
----
-
-# ✅ Optional: Add `requirements.txt`
-
-Create this file:
-
-
-
-requirements.txt
-
-
-```txt
-langchain
-langchain-openai
-langgraph
-faiss-cpu
-streamlit
-python-dotenv
 
