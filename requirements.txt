@@ -1,0 +1,12 @@
+openai
+faiss-cpu
+numpy
+langchain
+langchain_openai
+langchain_core
+langchain-community
+langgraph
+langchain-groq
+sentence-transformers
+dotenv
+streamlit
