@@ -65,7 +65,7 @@ cd failure-postmortem-agent
 
 python -m venv venv\
 source venv/bin/activate \# Mac/Linux\
-venv`\Scripts`{=tex}`\activate      `{=tex}\# Windows
+venv`\Scripts`{=tex}`\activate`{=tex} \# Windows
 
 ### 3️⃣ Install dependencies
 
